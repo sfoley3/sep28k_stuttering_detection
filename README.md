@@ -6,13 +6,13 @@ The user is assumed to have downloaded the relevant files from the original Sep2
 
 The first step is to run the following:
 
-```preprocess.py```
+```python preprocess.py```
 
 This returns a dictionary containing F0, MFB, and wav2vec 2.0 features, and dictionaries for the labels and audio file paths. 
 
 To train a model on these features:
 
-```train.py --model --batch_size --num_epochs
+```python train.py --model --batch_size --num_epochs```
 
 This `train.py` allows one to select a model from the `models.py` file and generates the dataset from the `dataset.py' file.
 
