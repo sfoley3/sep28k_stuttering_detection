@@ -14,6 +14,6 @@ To train a model on these features:
 
 ```python train.py --model --batch_size --num_epochs```
 
-This `train.py` allows one to select a model from the `models.py` file and generates the dataset from the `dataset.py' file.
+This `train.py` allows one to select a model from the `models.py` file and generates the dataset from the `dataset.py` file.
 
 Following training the `utils.py` contains a plotting function to show the binary and multiclass losses and F1 scores. 
