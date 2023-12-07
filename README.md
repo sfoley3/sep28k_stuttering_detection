@@ -4,6 +4,10 @@ This repository contains code for preprocessing the [Sep28k](https://github.com/
 
 The user is assumed to have downloaded the relevant files from the original Sep28k repo. 
 
+Install required libraries:
+
+```pip install requirements.txt```
+
 The first step is to run the following:
 
 ```python preprocess.py```
