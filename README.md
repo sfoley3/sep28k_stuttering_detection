@@ -20,4 +20,6 @@ To train a model on these features:
 
 This `train.py` allows one to select a model from the `models.py` file and generates the dataset from the `dataset.py` file.
 
+Available models include: ConvLSTM(), LSTM_base(), ResNet()
+
 Following training the `utils.py` contains a plotting function to show the binary and multiclass losses and F1 scores. 
